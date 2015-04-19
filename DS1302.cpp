@@ -1,9 +1,6 @@
-#if defined(ARDUINO) && ARDUINO >= 100
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
-#include "DS1302.h"
+#include <Arduino.h>
+
+#include <DS1302.h>
 
 #include <stdint.h>
 
